@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fonte mais clássica para um informativo */
+    margin: 0;
+    line-height: 1.8; /* Aumenta o espaçamento entre linhas para melhor leitura */
+    background-color: #f8f8f8; /* Fundo mais claro */
+    color: #222; /* Texto mais escuro para contraste */
+}
+
+header {
+    background-color: #0056b3; /* Um tom de azul mais corporativo */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sutil sombra para destaque */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 1px; /* Leve espaçamento entre as letras */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+nav ul li a:hover {
+    color: #e0f2f7; /* Cor mais clara ao passar o mouse */
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+    max-width: 900px; /* Limita a largura para melhor leitura em telas grandes */
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Cantos levemente arredondados */
+}
+
+section {
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #ddd; /* Linha tracejada para separar seções */
+}
+
+section:last-child {
+    border-bottom: none; /* Remove a linha da última seção */
+}
+
+h2 {
+    color: #007bff; /* Um azul vibrante para os títulos */
+    font-size: 2rem;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 12px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify; /* Justifica o texto para um visual mais formal */
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #0056b3;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
